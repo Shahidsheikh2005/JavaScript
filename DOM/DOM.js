@@ -83,3 +83,88 @@
 // console.dir(h2.innerText);
 // h2.innerText = h2.innerText + " from nass student";
 // console.dir(h2.innerText);
+
+//----------------------------------------------------------------------------------------------------
+
+//Attributs in js
+
+// let div = document.querySelector("div");
+// console.log(div);
+// let id = div.getAttribute("id");
+// console.log(id);
+
+// let para = document.querySelector("p");
+// console.log(para.setAttribute("class","NewClass"));
+
+
+// let div = document.querySelector("div");
+// div.style.backgroundColor="green";
+// div.style.fontStyle="30px";
+// div.innerText="hello";
+
+
+//Insert element 
+
+// let newbtn = document.createElement("button");
+// newbtn.innerText = "click me";
+// console.log(newbtn);
+
+//1. node.append(el)
+// let div = document.querySelector("div");
+// div.append(newbtn);
+
+//2. node.prepend
+// div.prepend(newbtn);
+
+//3. node.before
+// div.before(newbtn);
+
+//4. node.after
+// div.after(newbtn);
+
+//Delete element
+// let para = document.querySelector("p");
+// para.remove();
+
+//question
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//practice question
+
+// let newbtn = document.querySelector("button");
+// newbtn.innerText = "click me";
+// newbtn.style.color = "white";
+// newbtn.style.backgroundColor = "red";
+// document.querySelector("body").prepend(newbtn);

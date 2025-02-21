@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: aqua;
 }
 h1{
@@ -7,4 +7,12 @@ h1{
 }
 p{
     font-family: 'Times New Roman', Times, serif;
+} */
+
+#box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(31, 176, 81);
+    color: azure;
+    border: 1px solid black;
 }
